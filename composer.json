@@ -20,6 +20,8 @@
     "minimum-stability": "dev",
     "require": {},
     "extra": {
-        "class": "Silah\\AutogenerateModel\\Plugin"
+        "class": "Silah\\AutogenerateModel\\Plugin",
+        "composer-plugin-api": "2.0.0"
+
     }
 }
