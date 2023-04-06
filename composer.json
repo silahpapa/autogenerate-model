@@ -2,6 +2,8 @@
     "name": "silah/autogenerate-model",
     "description": "laravel package help autogenerate migration fields",
     "type": "composer-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Database\\Factories\\": "database/factories/",
