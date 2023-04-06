@@ -18,7 +18,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "silah/autogenerate-model": "dev-main"
-    }
+    "require": {}
 }
