@@ -1,6 +1,6 @@
 <?php
 
-namespace silah\autogenerateModel;
+namespace Silah\AutogenerateModel;
 
 use Illuminate\Console\Command;
 use Artisan;

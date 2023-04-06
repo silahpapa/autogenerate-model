@@ -1,6 +1,6 @@
 <?php
 
-namespace silah\autogenerateModel\Providers;
+namespace Silah\AutogenerateModel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 class autogenerateModelProvider extends ServiceProvider
