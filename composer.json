@@ -18,5 +18,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "class": "Silah\\AutogenerateModel\\Plugin"
+    }
 }
