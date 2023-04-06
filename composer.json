@@ -1,0 +1,20 @@
+{
+    "name": "silah/autogenerate-model",
+    "description": "laravel package help autogenerate migration fields",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Silah\\AutogenerateModel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "silah",
+            "email": "silakosy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
