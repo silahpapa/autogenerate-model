@@ -19,7 +19,7 @@ class AutoGenerateModel extends Command
     protected $signature = 'sh:make-model {model_name}';
 
 
-    protected $description = 'Generate a model, migration, controller, route and view at the same time';
+    protected $description = 'Generate a model, migration, and populate table';
 
 
     protected $real_model;

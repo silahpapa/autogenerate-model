@@ -3,6 +3,8 @@
 namespace Silah\AutogenerateModel\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Silah\AutogenerateModel\AutoGenerateModel;
+
 class autogenerateModelProvider extends ServiceProvider
 {
     /**
@@ -12,6 +14,8 @@ class autogenerateModelProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->commands([
+            AutoGenerateModel::class,
+        ]);
     }
 }

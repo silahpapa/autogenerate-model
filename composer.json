@@ -1,8 +1,8 @@
 {
     "name": "silah/autogenerate-model",
     "description": "laravel package help autogenerate migration fields",
-    "type": "composer-plugin",
-    "version": "1.0.1",
+    "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -18,7 +18,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^8.0"
+    },
     "extra": {
         "class": "Silah\\AutogenerateModel\\Plugin",
         "composer-plugin-api": "2.0.0"
