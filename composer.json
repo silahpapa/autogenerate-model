@@ -6,8 +6,6 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
             "Silah\\AutogenerateModel\\": "src/"
         }
     },
@@ -17,7 +15,7 @@
             "email": "silakosy@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": "^8.0"
     },

@@ -7,6 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Silah\\AutogenerateModel\\' => array($baseDir . '/src'),
-    'Database\\Seeders\\' => array($baseDir . '/database/seeders'),
-    'Database\\Factories\\' => array($baseDir . '/database/factories'),
 );

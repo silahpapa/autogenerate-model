@@ -11,25 +11,12 @@ class ComposerStaticInit375f32dc94bb0625bad549cebc950531
         array (
             'Silah\\AutogenerateModel\\' => 24,
         ),
-        'D' => 
-        array (
-            'Database\\Seeders\\' => 17,
-            'Database\\Factories\\' => 19,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Silah\\AutogenerateModel\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-        ),
-        'Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/database/seeders',
-        ),
-        'Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/database/factories',
         ),
     );
 
