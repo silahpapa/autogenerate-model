@@ -17,12 +17,12 @@
             "email": "silakosy@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "^8.0"
     },
     "extra": {
-        "class": "Silah\\AutogenerateModel\\Plugin",
+        "class": "Silah\\AutogenerateModel",
         "composer-plugin-api": "2.0.0"
     }
 }
